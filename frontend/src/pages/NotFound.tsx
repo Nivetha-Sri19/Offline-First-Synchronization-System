@@ -1,0 +1,2 @@
+import { Button, Stack, Typography } from '@mui/material'; import { useNavigate } from 'react-router-dom';
+export function NotFound(){const n=useNavigate();return <Stack alignItems="center" justifyContent="center" minHeight="70vh" spacing={2}><Typography variant="h2">404</Typography><Typography color="text.secondary">This workspace route does not exist.</Typography><Button variant="contained" onClick={()=>n('/')}>Back to command center</Button></Stack>}

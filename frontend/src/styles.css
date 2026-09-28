@@ -1,0 +1,6 @@
+html, body, #root { min-height: 100%; margin: 0; }
+* { box-sizing: border-box; }
+body { min-width: 320px; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,.12); border-radius: 99px; }
+::selection { background: rgba(124,92,255,.35); }
